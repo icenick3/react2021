@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Comment = (props) => {
-    const {name, email, body} = props;
+    const {id, name, email, body} = props;
     return (
         <div>
            <h3>{name}</h3>

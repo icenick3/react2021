@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import Comment from "../Comment/Comment";
 
 const Comments = () => {
@@ -11,7 +12,7 @@ const Comments = () => {
     },[])
     return (
         <div>
-            {comments.map(value => <Comment name={value.name} email={value.email} body={value.body}/>)}
+            {comments.map(value => <Comment key={value.id} name={value.name} email={value.email} body={value.body}/>)}
         </div>
     );
 };

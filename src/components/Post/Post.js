@@ -1,8 +1,7 @@
-import React from 'react';
 import './Post.css'
 
 const Post = (props) => {
-    const  {title, body} = props;
+    const  {id, title, body} = props;
     return (
         <div>
             <h4>{title}</h4>
