@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    border: solid 5px black;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.mg0 {
+    margin: auto;
+}
+
