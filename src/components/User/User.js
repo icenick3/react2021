@@ -2,7 +2,7 @@ import './User.css'
 
 
 const User = (props) => {
-    const  {id, name, surname, email} = props;
+    const {id, name, surname, email} = props;
     return (
         <div>
             <h3 className={'mg'}>{id}</h3>
