@@ -1,0 +1,14 @@
+.posts {
+    font-size: 20px;
+
+}
+
+.contentPosts {
+    margin: 5px;
+
+}
+
+.blockPosts {
+    margin: 5px;
+    border: solid 5px black;
+}

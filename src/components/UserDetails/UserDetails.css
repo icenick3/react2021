@@ -1,0 +1,48 @@
+.detailsBlock {
+    width: 45%;
+    font-size: 30px;
+    border-radius: 50px;
+    background: url(https://klike.net/uploads/posts/2019-11/1572946197_2.jpg);
+    margin-left: 50px;
+}
+
+.detailsP {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.detailsButton {
+    margin-right: 200px;
+    position: relative;
+    color: #777674;
+    font-size: 30px;
+    text-shadow: rgba(255, 255, 255, .5) 1px 1px, rgba(100, 100, 100, .3) 3px 7px 3px;
+    user-select: none;
+    padding: 0 2em;
+    outline: none;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .0) 30%, rgba(255, 255, 255, .8), rgba(255, 255, 255, .0) 70%),
+    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, .3)),
+    linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)),
+    linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)),
+    linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5)),
+    linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0, 0, 0, .5) 3px 10px 10px -10px;
+}
+
+.detailsButton:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+.detailsButton:active {
+    top: 1px;
+}
+
+.pBlock {
+    margin: 0;
+    padding: 0;
+}
